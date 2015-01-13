@@ -398,7 +398,7 @@ Choisir une licence
   *  En particulier pour celles qui sont des alternatives à des bibliothèques propriétaires
 
 * ASL 2.0 pour les bibliothèques javascript
-* GPLv3 pour tout le reste, voir AGPLv3 s'il y a un risque d'emprisonnement par un SaaS
+* GPLv3 pour tout le reste, voire AGPLv3 s'il y a un risque d'emprisonnement par un SaaS
 
 
 
