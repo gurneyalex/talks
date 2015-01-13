@@ -109,8 +109,6 @@ Une license de logiciel libre peut elle...
 
 * interdire d'utiliser le logiciel pour torturer des gens ?
 
-* exiger que le code modifié soit communiqué à l'auteur original ?
-
 * interdire de modifier la partie client d'un protocole de communication réseau mis en œuvre par le logiciel ? 
 
 
@@ -400,7 +398,7 @@ Choisir une licence
   *  En particulier pour celles qui sont des alternatives à des bibliothèques propriétaires
 
 * ASL 2.0 pour les bibliothèques javascript
-* GPLv3 pour tout le reste, voir AGPLv3 s'il y a un risque d'emprisonnement par un SaaS
+* GPLv3 pour tout le reste, voire AGPLv3 s'il y a un risque d'emprisonnement par un SaaS
 
 
 
