@@ -21,7 +21,7 @@ Disclaimer
 ==========
 
 .. image:: http://fc05.deviantart.net/fs19/f/2007/275/a/a/Conan__IANAL_by_Chibi_Sanzo.png
-   :height: 2000 px
+   :height: 1000 px
 ..    ©2007-2015 Chibi-Sanzo
 
 En particulier, je ne suis pas à l'aise avec les détails du droit d'auteur, ni le droit des brevets...
@@ -89,15 +89,13 @@ Les tests de debian-legal
   * `Licences incompatibles <https://wiki.debian.org/DFSGLicenses#Licenses_that_are_DFSG-incompatible>`_
 
 
+
 Quizz
 =====
 
 .. image:: http://ljdchost.com/Oi71uxF.gif
-   :height: 2000px
-   :align: center
-
-Quizz
-=====
+   :height: 800px
+   :align: right
 
 Une license de logiciel libre peut elle...
 
@@ -288,7 +286,7 @@ Vous survivez ?
 ===============
 
 .. image:: http://ljdchost.com/VLTXiiF.gif
-   :height: 2000px
+   :height: 1000px
    :align: center
 
 
@@ -382,7 +380,7 @@ Choisir une licence
 * Rester sur des choses connues, et ne pas inventer sa propre licence
 
 .. image:: http://ljdchost.com/cMLpbLc.gif
-   :height: 1000
+   :height: 1000px
    :align: center
 
 .. class:: incremental
@@ -425,7 +423,7 @@ Si je prends 2 bouts de code, avec deux licences différentes, est-ce que j'ai l
 Tableaux de compatibilité
 =========================
 
-.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Quick-guide-gplv3-compatibility.svg/2000px-Quick-guide-gplv3-compatibility.svg.png
+.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Quick-guide-gplv3-compatibility.svg/1000px-Quick-guide-gplv3-compatibility.svg.png
    :align: center
 
 Author: A. Hawrylyshen, CC-BY-SA-3.0
