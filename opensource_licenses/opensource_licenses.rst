@@ -57,7 +57,7 @@ Libertés selon l'OSI
 5. non discrimination contre des personnes ou des groupes
 6. non discrimination contre des champs d'application
 7. application à l'identique pour toutes les personnes qui reçoivent le logiciel
-8. la license ne doit pas être spécifique à un produit
+8. la licence ne doit pas être spécifique à un produit
 9. absence de restriction sur d'autres logiciels
 10. neutralité technologique
 
@@ -121,13 +121,13 @@ Licences "permissives" :
 * BSD à 2 clauses
 * X11 / MIT
 * zlib
-* Apache
+* ASL
 
 Licences "Copyleft" :
 
-* GPL
-* LGPL
-* AGPL
+* GNU GPL
+* GNU LGPL
+* GNU AGPL
 * MPL
 
 ----
@@ -321,7 +321,7 @@ Si je prends 2 bouts de code, avec deux licences différentes, est-ce que j'ai l
 
 Réponse: ça dépend des licenses. Oui, si j'ai le droit d'appliquer simultanément les 2 deux licences à l'œuvre résultante.
 
-Globalement, tant qu'il n'y a pas de licence à Copyleft dans l'équation, c'est bon
+Globalement, tant qu'il n'y a pas de licence à Copyleft dans l'équation, c'est bon.
 
 ----
 
@@ -356,3 +356,13 @@ http://opensource.org/licenses
 http://www.gnu.org/licenses/gpl-faq.html#AllCompatibility
 https://www.gnu.org/licenses/license-list.html
 https://wiki.debian.org/DFSGLicenses
+
+
+----
+
+Annexe
+======
+
+Source de cette présentation: https://github.com/gurneyalex/talks
+
+(licence: ASL 2.0) 
