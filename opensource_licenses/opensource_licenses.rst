@@ -109,8 +109,6 @@ Une license de logiciel libre peut elle...
 
 * interdire d'utiliser le logiciel pour torturer des gens ?
 
-* exiger que le code modifié soit communiqué à l'auteur original ?
-
 * interdire de modifier la partie client d'un protocole de communication réseau mis en œuvre par le logiciel ? 
 
 
