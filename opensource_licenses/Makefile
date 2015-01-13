@@ -1,16 +1,11 @@
 all : html
 
-pdf : opensource_licenses.pdf
-
 html : opensource_licenses.html
 
 %.html : %.rst
-	landslide -t light -r -d $@ $<
-
-%.pdf : %.rst
-	landslide -t light -r -d $@ $<
+	rst2s5 --theme small-black $< $@
 
 clean:
-	rm -f opensource_licenses.html opensource_licenses.pdf
+	rm -f opensource_licenses.html 
 
 .PHONY : all html pdf clean
