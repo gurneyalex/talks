@@ -73,6 +73,44 @@ Les tests de debian-legal
 
 https://people.debian.org/~bap/dfsg-faq.html
 
+https://wiki.debian.org/DFSGLicenses#Licenses_that_are_DFSG-incompatible
+
+----
+
+Quizz
+~~~~~
+
+Est-ce qu'une licence de logiciel libre peut exiger que le code modifié soit communiqué à l'auteur original ?
+
+----
+
+Quizz
+~~~~~
+
+Est-ce qu'une licence de logiciel libre peut demander que l'utilisateur envoie une carte postale ?
+
+
+----
+
+Quizz
+~~~~~
+
+Est-ce qu'une licence de logiciel libre peut interdire d'utiliser le logiciel pour torturer des gens ?
+
+----
+
+Quizz
+~~~~~
+
+Est-ce qu'une licence de logiciel libre peut exiger que le code modifié soit communiqué à l'auteur original ?
+
+----
+
+Quizz
+~~~~~
+
+Est-ce qu'une licence de logiciel libre peut interdire de modifier la partie client d'un protocole de communication réseau mis en œuvre par le logiciel ? 
+
 ----
 
 Quelques licences libres
@@ -290,7 +328,10 @@ Globalement, tant qu'il n'y a pas de licence à Copyleft dans l'équation, c'est
 Tableaux de compatibilité
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-XXX
+.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Quick-guide-gplv3-compatibility.svg/500px-Quick-guide-gplv3-compatibility.svg.png
+
+Author: A. Hawrylyshen, CC-BY-SA-3.0
+
 
 ----
 
@@ -312,3 +353,6 @@ http://blog.milkingthegnu.org/2008/04/gpl-for-dummies.html
 http://en.swpat.org/wiki/Patent_clauses_in_software_licences
 http://www.fsf.org/licensing/
 http://opensource.org/licenses
+http://www.gnu.org/licenses/gpl-faq.html#AllCompatibility
+https://www.gnu.org/licenses/license-list.html
+https://wiki.debian.org/DFSGLicenses
