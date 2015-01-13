@@ -458,6 +458,12 @@ Références
 * `GNU: license list <https://www.gnu.org/licenses/license-list.html>`_
 * `DFSG licenses <https://wiki.debian.org/DFSGLicenses>`_
 
+Questions ?
+===========
+
+.. image:: http://i.imgur.com/moo0BtB.gif
+   :height: 1000px
+   :align: center
 
 Annexe
 ======
