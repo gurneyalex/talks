@@ -1,10 +1,11 @@
+.. include:: <s5defs.txt>
+
 ==============
 Licences FLOSS
 ==============
 
-Alexandre Fayolle <alexandre.fayolle@camptocamp.com>
-
-13 janvier 2015
+:Authors: Alexandre Fayolle <alexandre.fayolle@camptocamp.com>
+:Date: 13 janvier 2015
 
 * Qu'est que le Logiciel Libre / Open Source
 * Présentation de quelques licences classiques
@@ -18,11 +19,11 @@ Disclaimer
 
 .. image:: http://fc05.deviantart.net/fs19/f/2007/275/a/a/Conan__IANAL_by_Chibi_Sanzo.png
 
-©2007-2015 Chibi-Sanzo
+..    ©2007-2015 Chibi-Sanzo
 
 En particulier, je ne suis pas à l'aise avec les détails du droit d'auteur, ni le droit des brevets...
 
-----
+
 
 Logiciel Libre
 ==============
@@ -35,20 +36,27 @@ Free Software vs. Open Source
 * en pratique les 2 classes de logiciels se recouvrent largement
 * FLOSS
 
-----
+
 
 Libertés selon la FSF
-~~~~~~~~~~~~~~~~~~~~~
+=====================
+
+.. class:: incremental
 
 0. liberté d'exécuter le programme, sans restriction de but
 1. liberté d'étudier le fonctionnement du programme, et de le modifier pour l'adapter à ses besoins
 2. liberté de redistribuer des copies
 3. liberté de redistribuer les versions modifiées
 
-----
+
 
 Libertés selon l'OSI
-~~~~~~~~~~~~~~~~~~~~
+====================
+
+.. class:: small
+
+.. class:: incremental
+
 
 1. redistribution libre
 2. accès au code source
@@ -62,96 +70,114 @@ Libertés selon l'OSI
 10. neutralité technologique
 
 
-----
+
 
 Les tests de debian-legal
-~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================
+
+.. class:: incremental
 
 * Test de l'île déserte
 * Test du dissident
 * Test des Tentacules du Mal
+* Pour plus d'information voir:
 
-https://people.debian.org/~bap/dfsg-faq.html
+  * `DFSG FAQ <https://people.debian.org/=bap/dfsg-faq.html>`_
+  * `Licences incompatibles <https://wiki.debian.org/DFSGLicenses#Licenses_that_are_DFSG-incompatible>`_
 
-https://wiki.debian.org/DFSGLicenses#Licenses_that_are_DFSG-incompatible
 
-----
-
-Quizz
-~~~~~
-
-Est-ce qu'une licence de logiciel libre peut exiger que le code modifié soit communiqué à l'auteur original ?
-
-----
 
 Quizz
-~~~~~
+=====
 
-Est-ce qu'une licence de logiciel libre peut demander que l'utilisateur envoie une carte postale ?
+Une license de logiciel libre peut elle...
+
+.. class:: small
+
+.. class:: incremental
+
+* exiger que le code modifié soit communiqué à l'auteur original ?
+
+* demander que l'utilisateur envoie une carte postale ?
+
+* interdire d'utiliser le logiciel pour torturer des gens ?
+
+* exiger que le code modifié soit communiqué à l'auteur original ?
+
+* interdire de modifier la partie client d'un protocole de communication réseau mis en œuvre par le logiciel ? 
 
 
-----
-
-Quizz
-~~~~~
-
-Est-ce qu'une licence de logiciel libre peut interdire d'utiliser le logiciel pour torturer des gens ?
-
-----
-
-Quizz
-~~~~~
-
-Est-ce qu'une licence de logiciel libre peut exiger que le code modifié soit communiqué à l'auteur original ?
-
-----
-
-Quizz
-~~~~~
-
-Est-ce qu'une licence de logiciel libre peut interdire de modifier la partie client d'un protocole de communication réseau mis en œuvre par le logiciel ? 
-
-----
 
 Quelques licences libres
 ========================
 
+.. class:: small
+
 Licences "permissives" :
 
-* BSD à 2 clauses
-* X11 / MIT
-* zlib
-* ASL
+.. class:: small
+
+ * BSD à 2 clauses
+ * X11 / MIT
+ * zlib
+ * ASL
+
+.. class:: small
 
 Licences "Copyleft" :
 
-* GNU GPL
-* GNU LGPL
-* GNU AGPL
-* MPL
+.. class:: small
 
-----
+ * GNU GPL
+ * GNU LGPL
+ * GNU AGPL
+ * MPL
 
 BSD à 2 clauses
-~~~~~~~~~~~~~~~
+===============
+
+.. class:: small
 
 Copyright (c) <YEAR>, <OWNER>
 All rights reserved.
 
+.. class:: small
+
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+.. class:: small
 
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-----
+Disclaimer BSD
+==============
+
+.. class:: tiny
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 
 X11 ou MIT
-~~~~~~~~~~
+==========
+
+.. class:: small
 
 Copyright (c) <year> <copyright holders>
+
+.. class:: small
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -160,8 +186,15 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+.. class:: small
+
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
+
+Disclaimer X11
+==============
+
+.. class:: tiny
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -171,20 +204,30 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-----
+
 
 zlib
-~~~~
+====
+
+.. class:: small
 
 Copyright (c) <''year''> <''copyright holders''>
+
+.. class:: small
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
 arising from the use of this software.
 
+.. class:: small
+
+Permissions zlib
+================
+
 Permission is granted to anyone to use this software for any purpose,
 including commercial applications, and to alter it and redistribute it
 freely, subject to the following restrictions:
+
 
 1. The origin of this software must not be misrepresented; you must not
    claim that you wrote the original software. If you use this software
@@ -194,18 +237,26 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 
-----
+
 
 Apache 2.0
-~~~~~~~~~~
+==========
+
+.. class:: small
 
 Copyright [yyyy] [name of copyright owner]
+
+.. class:: small
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
+.. class:: small
+
 http://www.apache.org/licenses/LICENSE-2.0
+
+.. class:: small
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -214,7 +265,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-Remarques:
+ASL 2.0: Remarques
+==================
+
+.. class:: small
 
 * CLA inclus
 * s'applique par fichier, et plus globalement à une logiciel
@@ -222,11 +276,11 @@ Remarques:
 * il doit être fait mention de l'existence de modification dans les fichiers visés
 * gestion explicite des brevets (accord de droits, révocation en cas de poursuite)
 
-----
+
 
 
 Copyleft
-~~~~~~~~
+========
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GreenCopyleft.svg/197px-GreenCopyleft.svg.png
 
@@ -238,12 +292,14 @@ autorisation soit préservée.
 
 C'est la base des licences "Xxxx Public License". 
 
-----
+
 
 GNU General Public License 3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+============================
 
 http://www.gnu.org/licenses/gpl.html
+
+.. class:: small
 
 * Liberté classiques (art 2)
 * Copyleft fort (art 4, art 5) : les œuvres dérivées doivent être distribuées dans leur totalité  sous GPL
@@ -253,12 +309,12 @@ http://www.gnu.org/licenses/gpl.html
 * Certaines permissions additionnelles possibles (art 7)
 * Gestion de la révocation de la licence en cas de non respect (art 8)
 * Gestion des brevets (art 11)
-* information visible dans le binaire
+* information visible dans le logiciel
 
-----
+
 
 GNU Lesser General Public License 3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================================
 
 http://www.gnu.org/licenses/lesser.html
 
@@ -267,26 +323,32 @@ Pensée pour les bibliothèques
 * Liberté classiques (art 2)
 * Copyleft faible (art 4, art 5) : en cas de combinaison avec d'autres composants, l'œuvre combinée composite n'est pas concernée par le copyleft, seules les œuvres dérivées le sont
 
-----
+
 
 GNU Affero Public License 3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================
 
 http://www.gnu.org/licenses/agpl.html
+
+.. class:: small
 
 Semblable à GPLv3, mais donne des droits non seulement aux personnes
 qui reçoivent une copie du programme, mais également aux personnes qui
 utilisent le programme à travers le réseau. (art 13)
 
+.. class:: small
+
 Faite pour éviter le détournement de la GPL via du SaaS.
+
+.. class:: small
 
 Copyleft fort, avec une exception pour les portions de code GPL qui ne sont pas "contaminées" par l'AGPL dans le cadre d'une combinaison. 
 
 
-----
+
 
 Mozilla Public License 2.0
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================
 
 https://www.mozilla.org/MPL/2.0/
 
@@ -296,7 +358,7 @@ L'unité d'œuvre n'est pas la bibliothèque ou l'exécutable (comme dans la LGP
 
 Gestion des brevets
 
------
+
 
 Choisir une licence
 ===================
@@ -307,33 +369,37 @@ Utiliser la licence de l'écosystème quand c'est possible
 
 Selon le contexte, je recommande Apache 2.0 (or later) ou GPLv3 (or later)
 
+.. class:: small
+
 * Apache 2.0 pour les petits programmes
 * Apache 2.0 pour les implémentations de références de bibliothèques dont on souhaite une très large diffusion, en particulier pour celles qui sont des alternatives à des bibliothèques propriétaires
 * Apache 2.0 pour les bibliothèques javascript
 * GPL v3 pour tout le reste, voir AGPLv3 s'il y a un risque d'emprisonnement par un SaaS
 
-----
+
 
 Compatibilité des licences
 ==========================
 
 Si je prends 2 bouts de code, avec deux licences différentes, est-ce que j'ai le droit de les combiner ?
 
+.. class:: incremental
+
 Réponse: ça dépend des licenses. Oui, si j'ai le droit d'appliquer simultanément les 2 deux licences à l'œuvre résultante.
 
 Globalement, tant qu'il n'y a pas de licence à Copyleft dans l'équation, c'est bon.
 
-----
+
 
 Tableaux de compatibilité
-~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Quick-guide-gplv3-compatibility.svg/500px-Quick-guide-gplv3-compatibility.svg.png
 
 Author: A. Hawrylyshen, CC-BY-SA-3.0
 
 
-----
+
 
 Contributor License Agreement
 =============================
@@ -342,8 +408,10 @@ Un CLA est un accord qu'un contributeur passe avec l'organisme qui s'occupe de l
 
 En l'absence de CLA, un changement de licence copyleft nécessite l'accord de l'ensemble des contributeurs. 
 
+.. class:: incremental
 
-----
+Quid du CLA par rapports aux tentacules du mal ?
+
 
 Références
 ==========
@@ -358,7 +426,7 @@ https://www.gnu.org/licenses/license-list.html
 https://wiki.debian.org/DFSGLicenses
 
 
-----
+
 
 Annexe
 ======
